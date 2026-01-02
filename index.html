@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Douglas Alerrander | Psicólogo Clínico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sage: {
+                50: '#F0F1F5',
+                100: '#E2E4EC',
+                200: '#C5C9D9',
+                300: '#9DA4BF',
+                400: '#7A83A6',
+                500: '#56618C',
+                600: '#434D73',
+                700: '#313959',
+                800: '#232940',
+                900: '#17173B', // Requested Primary Color
+                950: '#0E0E24',
+              },
+              sand: {
+                50: '#fbfaf8', // Main BG Light
+                100: '#f5f2eb',
+                200: '#ece5d4',
+                300: '#e0d2b7',
+                800: '#5e523e',
+                900: '#3d3429',
+              },
+              clay: {
+                100: '#f0ebe9',
+                300: '#d6c0b3',
+                400: '#C4A484', // Goldish Clay
+                500: '#a88b7d',
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Lato"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Global Smooth Scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #fbfaf8;
+        color: #17173B;
+        overflow-x: hidden;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #17173B;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #56618C;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #7A83A6;
+      }
+
+      /* Custom selection color */
+      ::selection {
+        background-color: #56618C;
+        color: #ffffff;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?deps=react@18.2.0,react-dom@18.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
