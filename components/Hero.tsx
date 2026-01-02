@@ -180,18 +180,18 @@ const Hero: React.FC = () => {
                 </motion.div>
              </div>
              
-             {/* Bouncing Scroll Indicator */}
+             {/* Bouncing Scroll Indicator - Refined for continuous loop */}
              <motion.a
                 href="#motivos"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1, y: [0, 8, 0] }}
+                animate={{ opacity: 1, y: [0, 12, 0] }}
                 transition={{ 
                     opacity: { delay: 1.5, duration: 1 },
-                    y: { repeat: Infinity, duration: 2, ease: "easeInOut" }
+                    y: { repeat: Infinity, duration: 1.6, ease: "easeInOut" }
                 }}
-                className="absolute bottom-8 text-white/50 hover:text-white transition-colors"
+                className="absolute bottom-6 text-white/60 hover:text-white transition-colors cursor-pointer p-2"
              >
-                 <ChevronDown size={28} />
+                 <ChevronDown size={32} strokeWidth={1.5} />
              </motion.a>
           </div>
       </div>
