@@ -23,7 +23,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "A Terapia Cognitivo Comportamental serve para mim?",
-    answer: "A TCC é uma abordagem baseada em evidências, altamente eficaz para ansiedade, depressão, questões de relacionamento e autoconhecimento. Ela foca em resolver problemas atuais e modificar padrões de pensamento disfuncionais."
+    answer: "A Terapia Cognitiva é uma abordagem baseada em evidências, altamente eficaz para ansiedade, depressão, questões de relacionamento e autoconhecimento. Ela foca em resolver problemas atuais e modificar padrões de pensamento disfuncionais."
   }
 ];
 

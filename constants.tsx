@@ -41,7 +41,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: '4',
-    title: 'TCC',
+    title: 'Terapia Cognitiva',
     description: 'Abordagem estruturada para reestruturar pensamentos e comportamentos disfuncionais.',
     icon: BrainCircuit,
   },

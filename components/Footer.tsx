@@ -12,10 +12,10 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex space-x-6">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-sage-900 transition-colors p-2 hover:bg-sage-100 rounded-full">
+            <a href="https://www.instagram.com/psidouglasalerrander/" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-sage-900 transition-colors p-2 hover:bg-sage-100 rounded-full">
                 <Instagram size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-sage-900 transition-colors p-2 hover:bg-sage-100 rounded-full">
+            <a href="https://br.linkedin.com/in/douglas-alerrander-a7bb4516a" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-sage-900 transition-colors p-2 hover:bg-sage-100 rounded-full">
                 <Linkedin size={20} />
             </a>
             <a href="#contact" className="text-sage-400 hover:text-sage-900 transition-colors p-2 hover:bg-sage-100 rounded-full">

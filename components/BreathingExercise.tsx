@@ -16,7 +16,7 @@ const steps = [
     {
         icon: Sun,
         title: "Transformação",
-        desc: "Você aprende ferramentas práticas da TCC para lidar com as emoções e assume o controle da sua própria vida."
+        desc: "Você aprende ferramentas práticas da Terapia Cognitiva para lidar com as emoções e assume o controle da sua própria vida."
     }
 ];
 

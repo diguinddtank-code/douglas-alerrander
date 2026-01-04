@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
                              <div className="p-3 bg-sand-50 rounded-full shadow-sm text-clay-500 group-hover:scale-110 transition-transform">
                                 <Mail size={20} />
                             </div>
-                            <a href="mailto:contato@douglaspsi.com.br" className="font-sans text-sage-800 hover:text-clay-500 transition-colors border-b border-transparent hover:border-clay-500 pb-0.5">contato@douglaspsi.com.br</a>
+                            <a href="mailto:psicologodouglasalerrander@gmail.com" className="font-sans text-sage-800 hover:text-clay-500 transition-colors border-b border-transparent hover:border-clay-500 pb-0.5 break-all">psicologodouglasalerrander@gmail.com</a>
                         </div>
                          <div className="flex items-center space-x-5 group">
                             <div className="p-3 bg-sand-50 rounded-full shadow-sm text-clay-500 group-hover:scale-110 transition-transform">

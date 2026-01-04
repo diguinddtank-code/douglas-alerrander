@@ -63,7 +63,7 @@ const About: React.FC = () => {
                 </div>
                 <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-sage-900 mb-6 leading-[1.1]">
                   Douglas Alerrander <br/>
-                  <span className="text-2xl md:text-3xl text-sage-500 font-normal italic block mt-2">Psicólogo Clínico & TCC</span>
+                  <span className="text-2xl md:text-3xl text-sage-500 font-normal italic block mt-2">Psicólogo Clínico & Terapia Cognitiva</span>
                 </h2>
             </motion.div>
 
@@ -75,7 +75,7 @@ const About: React.FC = () => {
               className="text-sage-800/80 font-sans leading-relaxed space-y-6 text-base md:text-lg"
             >
               <p>
-                Acredito que a terapia é um processo colaborativo e humano. Como especialista em <strong>Terapia Cognitivo Comportamental (TCC)</strong>, meu foco não é apenas ouvir, mas fornecer ferramentas práticas para que você possa lidar melhor com suas emoções e desafios diários.
+                Acredito que a terapia é um processo colaborativo e humano. Como especialista em <strong>Terapia Cognitivo-Comportamental</strong>, meu foco não é apenas ouvir, mas fornecer ferramentas práticas para que você possa lidar melhor com suas emoções e desafios diários.
               </p>
               <p>
                 Minha atuação é centrada em três pilares fundamentais: <strong>Relações, Vida e Trabalho</strong>. Entendo que o equilíbrio nessas áreas é essencial para uma saúde mental robusta e sustentável.
