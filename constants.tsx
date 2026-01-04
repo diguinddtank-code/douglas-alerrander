@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import { NavItem, ServiceItem, Testimonial } from './types';
 
-export const WHATSAPP_URL = "https://wa.me/55619197316";
+export const WHATSAPP_URL = "https://wa.me/556191973167";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Início', href: '#hero' },
